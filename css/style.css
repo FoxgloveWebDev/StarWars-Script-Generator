@@ -1,0 +1,40 @@
+
+   @font-face {
+    font-family: 'distant_galaxyregular';
+    src: url('fonts/distgrg_-webfont.woff2') format('woff2'),
+         url('fonts/distgrg_-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+body {
+    background-image: url(https://images.unsplash.com/photo-1518818419601-72c8673f5852?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
+    color: yellow;
+    font-family: 'distant_galaxyregular';
+
+}
+
+#refresh {
+    border: none;
+    border-radius: 3%;
+    background-color: yellow;
+    padding: 1rem;
+    font-weight: bolder;
+    font-size: 1em;
+}
+
+#refresh :hover {
+    cursor: pointer;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+.scenario {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-weight: bold;
+    font-family: verdana;
+}

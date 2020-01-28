@@ -1,6 +1,7 @@
 
+
 function drawRandomPlanet(planet) {
-    var planet = ['Aargonar', 'Abafar', 'Abregado-rae', 'Adumar', 'Agamar', 'Ahch-To', 'Ajan Kloss', 'Ajara', 'Alderaan', 'Aleen', 'Almania', 'Ambria', 'Anaxes', 'Ando', 'l\'Anneau de Kafrene', 'Anoat', 'Antar IV', 'Aria Prime', 'Atollon', 'Atzerri', 'Bahryn', 'Bakura', 'Balamak', 'Balmorra', 'Balnab', 'Bandomeer', 'Bardotta', 'Bastion', 'Batuu', 'Berzite', 'Bespin', 'Bilbringi', 'Bogden', 'Bonadan', 'Borleias', 'Bothawui', 'Brentaal IV', 'Brodo Asogi', 'Byss', 'Cantonica', 'Carida', 'Cato Neimoidia', 'Chandel', 'Chandrila', 'Christophsis', 'Commenor', 'Concord Dawn', 'Concord Dawn III', 'Corellia', 'Corulag', 'Coruscant', 'Crait', 'Csilla', 'Dagobah', 'Dantooine', 'Dathomir', 'Denon', 'Devaron', 'Dorin', 'D\'Qar', 'Dromund Kaas', 'Duro', 'Dxun', 'Eadu', 'Endor', 'la lune forestière d\'Endor', 'Eriadu', 'Er\'Kit', 'Espinar', 'Etti IV', 'Exegol', 'Falleen', 'Felucia', 'Fest', 'Florrum', 'Fondor', 'Garel', 'Garqi', 'Géonosis', 'Ghorman', 'Giju', 'Glee Anselm', 'Gyndine', 'Hapes', 'Honogr', 'Hoth', 'Hosnian Prime', 'Humbarine', 'Iakar', 'Ibaar', 'Iego', 'Ilum', 'Iokath', 'Iridonia', 'Ithor', 'Jabiim', 'Jakku', 'Jalindi', 'Jedha', 'Jelucan', 'KAdavo', 'Kalarba', 'Kalee', 'Kalevala', 'Kamino', 'Kashyyyk', 'Kef Bir', 'Kessel','Kiffex', 'Kiffu', 'Kijimi', 'Killun', 'Kinyen', 'Kiros', 'Kirrek', 'Klatooine', 'Kothlis', 'Krownest', 'Kuat', 'Kubindi', 'Ladro', 'Lah\'mu', 'Lasan', 'Lexrul', 'Lira San', 'Lothal', 'Lotho Minor', 'Malachor', 'Malastare', 'Manaan', 'Mandalore', 'Maridun', 'Milvayne', 'Mimban', 'Mirial', 'Mon Calamari', 'Montross', 'Moraband', 'Mortis', 'Mustafar', 'Muunilinst', 'Mygeeto', 'Mykapo', 'Myrkr', 'Naboo', 'NaJedha', 'Nal Hutta', 'Nam Chorios', 'Nar Shadaa', 'Naraka', 'Nixus', 'Obroa-skai', 'Odessen', 'Onderon', 'Oosalon', 'Ord Mantell', 'Orto Plutonia', 'Ossus', 'Palanhi', 'Pantora', 'Parnassos', 'Pasaana', 'Pipada', 'la planète de la Force', 'Polis Massa', 'Quarzite', 'Quell', 'Rakata Prime', 'Ralltiir', 'Rattatak', 'Raxus Prime', 'Raydonia', 'Rendili', 'Rishi', 'la lune de Rishi', 'Rodia', 'Rudrig', 'Rugosa', 'Ruusan', 'Ryloth', 'Saleucami', 'Sarrish', 'Savareen', 'Scarif', 'Scipio', 'Sebaddon', 'Seelos', 'Selonia', 'Serenno', 'Sernpidal', 'Shantipole', 'Shili', 'le glacier de Sinta', 'Sriluur', 'la station de combat Starkiller', 'Stewjon', 'Stygeon Prime', 'Subterrel', 'Sullust', 'Sulon', 'Taanab', 'Takobo', 'Takodana', 'Talus', 'Talvarin', 'Tangenine', 'Taris', 'Tatooine', 'Telos', 'Telos IV', 'Telti', 'Tepasi', 'Terrelia', 'Teth','Thyferra', 'Tibrin', 'Tinnel IV', 'Tirahnn', 'Toydaria', 'Tralus', 'Trandosha', 'Tython', 'Umbara', 'Utapau', 'Uyter', 'Vallt', 'Vassek', 'Vanqor', 'Varl', 'Velusia', 'Vjun', 'Vortex', 'Voss', 'Wayland', 'Wobani', 'Wynkahthu', 'Yaga Minor', 'Yag\'Dhul', 'Yavin', 'Yavin IV', 'Yinchorr', 'Ylesia', 'Zygerria', 'Zeffo', 'Zakel', 'Ziost', 'Zonama Sekot'];
+    var planet = ['Aargonar', 'Abafar', 'Abregado-rae', 'Adumar', 'Agamar', 'Ahch-To', 'Ajan Kloss', 'Ajara', 'Alderaan', 'Aleen', 'Almania', 'Ambria', 'Anaxes', 'Ando', 'l\'Anneau de Kafrene', 'Anoat', 'Antar IV', 'Aria Prime', 'Atollon', 'Atzerri', 'Bahryn', 'Bakura', 'Balamak', 'Balmorra', 'Balnab', 'Bandomeer', 'Bardotta', 'Bastion', 'Batuu', 'Berzite', 'Bespin', 'Bilbringi', 'Bogden', 'Bonadan', 'Borleias', 'Bothawui', 'Brentaal IV', 'Brodo Asogi', 'Byss', 'Cantonica', 'Carida', 'Cato Neimoidia', 'Chandel', 'Chandrila', 'Christophsis', 'Commenor', 'Concord Dawn', 'Concord Dawn III', 'Corellia', 'Corulag', 'Coruscant', 'Crait', 'Csilla', 'Dagobah', 'Dantooine', 'Dathomir', 'Denon', 'Devaron', 'Dorin', 'D\'Qar', 'Dromund Kaas', 'Duro', 'Dxun', 'Eadu', 'Endor', 'la lune forestière d\'Endor', 'Eriadu', 'Er\'Kit', 'Espinar', 'Etti IV', 'Exegol', 'Falleen', 'Felucia', 'Fest', 'Florrum', 'Fondor', 'Garel', 'Garqi', 'Géonosis', 'Ghorman', 'Giju', 'Glee Anselm', 'Gyndine', 'Hapes', 'Honogr', 'Hoth', 'Hosnian Prime', 'Humbarine', 'Iakar', 'Ibaar', 'Iego', 'Ilum', 'Iokath', 'Iridonia', 'Ithor', 'Jabiim', 'Jakku', 'Jalindi', 'Jedha', 'Jelucan', 'Kadavo', 'Kalarba', 'Kalee', 'Kalevala', 'Kamino', 'Kashyyyk', 'Kef Bir', 'Kessel','Kiffex', 'Kiffu', 'Kijimi', 'Killun', 'Kinyen', 'Kiros', 'Kirrek', 'Klatooine', 'Kothlis', 'Krownest', 'Kuat', 'Kubindi', 'Ladro', 'Lah\'mu', 'Lasan', 'Lexrul', 'Lira San', 'Lothal', 'Lotho Minor', 'Malachor', 'Malastare', 'Manaan', 'Mandalore', 'Maridun', 'Milvayne', 'Mimban', 'Mirial', 'Mon Calamari', 'Montross', 'Moraband', 'Mortis', 'Mustafar', 'Muunilinst', 'Mygeeto', 'Mykapo', 'Myrkr', 'Naboo', 'NaJedha', 'Nal Hutta', 'Nam Chorios', 'Nar Shadaa', 'Naraka', 'Nixus', 'Obroa-skai', 'Odessen', 'Onderon', 'Oosalon', 'Ord Mantell', 'Orto Plutonia', 'Ossus', 'Palanhi', 'Pantora', 'Parnassos', 'Pasaana', 'Pipada', 'Polis Massa', 'Quarzite', 'Quell', 'Rakata Prime', 'Ralltiir', 'Rattatak', 'Raxus Prime', 'Raydonia', 'Rendili', 'Rishi', 'la lune de Rishi', 'Rodia', 'Rudrig', 'Rugosa', 'Ruusan', 'Ryloth', 'Saleucami', 'Sarrish', 'Savareen', 'Scarif', 'Scipio', 'Sebaddon', 'Seelos', 'Selonia', 'Serenno', 'Sernpidal', 'Shantipole', 'Shili', 'le glacier de Sinta', 'Sriluur', 'la station de combat Starkiller', 'Stewjon', 'Stygeon Prime', 'Subterrel', 'Sullust', 'Sulon', 'Taanab', 'Takobo', 'Takodana', 'Talus', 'Talvarin', 'Tangenine', 'Taris', 'Tatooine', 'Telos', 'Telos IV', 'Telti', 'Tepasi', 'Terrelia', 'Teth','Thyferra', 'Tibrin', 'Tinnel IV', 'Tirahnn', 'Toydaria', 'Tralus', 'Trandosha', 'Tython', 'Umbara', 'Utapau', 'Uyter', 'Vallt', 'Vassek', 'Vanqor', 'Varl', 'Velusia', 'Vjun', 'Vortex', 'Voss', 'Wayland', 'Wobani', 'Wynkahthu', 'Yaga Minor', 'Yag\'Dhul', 'Yavin', 'Yavin IV', 'Yinchorr', 'Ylesia', 'Zygerria', 'Zeffo', 'Zakel', 'Ziost', 'Zonama Sekot'];
     var randomPlanet = planet[Math.floor(Math.random() * planet.length)];
     return randomPlanet;
 }
@@ -24,7 +25,7 @@ function drawRandomDroid(droid) {
     return randomDroid;
 }
 function drawRandomObject(object) {
-    var object = ['un sabre-laser', 'une vieille barre chocolatée infusée de Force', 'une chaussette orpheline', 'l\'intelligence perdue des Jedi, tombée derrière une machine à café', 'les légendaires grimoires jedi', 'un x-wing des plus suspects', 'un y-wing en très mauvais état', 'les restes d\'une saucisse cocktail', 'le yacht de Palpatine, dans lequel git un coffre plein d\'Holocrons Siths', 'une relique de la Force', 'une motte de beurre salé', 'une mystérieuse vieille qui commercialise les souvenirs', 'un acte de mariage antidaté', 'un hologramme dédicacé', 'un diplôme universitaire acquis de justesse', 'une profession de foi', 'une taxe d\'habitation pour une résidence de luxe', 'un avis de crédit d\'impôt suite à un don au Secours Catholique'];
+    var object = ['un sabre-laser', 'une vieille barre chocolatée infusée de Force', 'une chaussette orpheline', 'l\'intelligence perdue des Jedi, tombée derrière une machine à café', 'les légendaires grimoires jedi', 'un x-wing des plus suspects', 'un y-wing en très mauvais état', 'les restes d\'une saucisse cocktail', 'le yacht de Palpatine, dans lequel git un coffre plein d\'Holocrons Siths', 'une relique de la Force', 'une motte de beurre salé', 'une mystérieuse vieille qui commercialise des souvenirs d\'Alderaan', 'un acte de mariage antidaté', 'un hologramme dédicacé', 'un diplôme universitaire acquis de justesse', 'une profession de foi', 'une taxe d\'habitation pour une résidence de luxe', 'un avis de crédit d\'impôt faisant suite à un don au Secours Jedi,', 'une main coupée baignant dans le formol'];
     var randomObject = object[Math.floor(Math.random() * object.length)];
     return randomObject;
 }
@@ -54,7 +55,7 @@ function drawRandomHuttName(huttName) {
 }
 
 function drawRandomGalaxyState() {
-    var galaxyState = ['est en liesse', 'est en deuil', 'est aux abois', 'est en grand péril', 's\'abonne à Canal Satellite', 'est encore affectée par une enième dissolution du Sénat', 'ne sait plus quoi faire, comme bien souvent', 'cède à la panique et court partout en agitant les bras', 'n\'a pas encore le cran de se débarrasser de ces crétins de Jedi qui foutent toujours le zbeul'];
+    var galaxyState = ['est en liesse', 'est en deuil', 'est aux abois', 'est en grand péril', 's\'abonne à Canal Satellite', 'est encore affectée par une enième dissolution du Sénat', 'ne sait plus quoi faire, comme bien souvent', 'cède à la panique et court partout en agitant les bras', 'n\'a pas encore le cran de se débarrasser de ces crétins de Jedi qui foutent toujours le zbeul', 'subit collectivement une publicité de Force non skippable pour Raid Shadow Legends, imposée par l\'Empereur Palpatine'];
     var randomGalaxyState = galaxyState[Math.floor(Math.random() * galaxyState.length)];
     return randomGalaxyState;
 }
@@ -72,7 +73,7 @@ function drawRandomQuestGoal(questGoal) {
 }
 
 function drawRandomOrder(order) {
-    var order = ['le Premier Ordre', 'le Dernier Ordre', 'l\'Avant-Dernier Ordre', 'l\'Empire', 'la Rébellion', 'l\'Alliance Rebelle', 'la Résistance', 'les Sith', 'les Jedi'];
+    var order = ['le Premier Ordre', 'le Dernier Ordre', 'l\'Avant-Dernier Ordre', 'l\'Empire', 'la Rébellion', 'l\'Alliance Rebelle', 'la Résistance', 'l\'Ordre Sith', 'l\'Ordre Jedi', 'l\'Antépénultième Ordre'];
     var randomOrder = order[Math.floor(Math.random() * order.length)];
     return randomOrder;
 }
@@ -105,11 +106,11 @@ function drawRandomSithLord(sithLordName) {
 
     var phrase4 = drawRandomMajorCharacter() + ' part en quête ' + drawRandomQuestObject() + ' permettant de ' + drawRandomQuestGoal() + '.';
 
-    var phrase5 = 'La Force demande à ' + drawRandomMajorCharacter() + ' de détruire ' + drawRandomObject() + ' au bénéfice de ' + drawRandomHuttName() + ' le Hutt.';
+    var phrase5 = 'La Force demande à ' + drawRandomMajorCharacter() + ' de détruire ' + drawRandomObject() + ' pour le compte de ' + drawRandomHuttName() + ' le Hutt.';
 
     var phrase6 = 'La cantina de ' + drawRandomPlanet() + ' est assiégée par ' + drawRandomOrder() + ', sous les ordres de ' + drawRandomSecondaryCharacter() + '.';
 
-    var phrase7 = 'Horreur ! ' + drawRandomMajorCharacter() + ', dont la resurrection fut orchestrée en secret par ' + drawRandomSecondaryCharacter() + ', menace ' + drawRandomMajorCharacter() + ' sur la planète ' + drawRandomPlanet() + '.';
+    var phrase7 = 'Horreur ! ' + drawRandomMajorCharacter() + ', dont la resurrection fut orchestrée en secret par ' + drawRandomSecondaryCharacter() + ', menace ' + drawRandomMajorCharacter() + ' sur ' + drawRandomPlanet() + '.';
 
     var phrase8 = drawRandomFollower() + ' impitoyables poursuivent ' + drawRandomMajorCharacter() + ', qui doit retrouver ' + drawRandomObject() + ' pour accomplir une prophétie de la Force.'
 
@@ -121,6 +122,16 @@ function drawRandomSithLord(sithLordName) {
     var phraseConclusive = ['La paix reviendra-t-elle dans la galaxie ?', 'Kylo Ren mourra-t-il incel ?', 'Qu\'est-ce qui pourrait sauver l\'amour ? Et comment retrouver le goût de la vie ? Qui pourra remplacer le besoin par l\'envie ?'];
 
     var randomPhraseConclusive = phraseConclusive[Math.floor(Math.random() * phraseConclusive.length)]; 
+
+    document.write(
+        '<div class="scenario"><p>' + phrase1 + '</p>' + '<p>' + phrase2  + '</p>' + '<p>' + phrase3  + '</p>' + '<p>' + phrase4  + '</p>' + '<p>' + phrase5  + '</p>' + '<p>' + phrase6  + '</p>' + '<p>' + phrase7  + '</p>' + '<p>' + phrase8  + '</p>' + '<p>' + phrase9  + '</p>' + '<p>' + phrase10  + '</p>' + '<p>' + randomPhraseConclusive + '</p></div>'
+        );
+
+
+        var refresh = window.getElementById('refresh');
+        refresh.addEventListener('click', location.reload(), false);
+        
+
 
 
 console.log(phrase1);
